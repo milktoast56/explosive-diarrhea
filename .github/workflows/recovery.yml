@@ -46,6 +46,8 @@ jobs:
         tar cvf fastbootd-recovery.tar recovery.img
         md5sum -t fastbootd-recovery.tar >> fastbootd-recovery.tar
         mv fastbootd-recovery.tar fastbootd-recovery.tar.md5
+        ls
+        pwd
 
     - name: Upload Recovery
       uses: actions/upload-artifact@v4.0.0
