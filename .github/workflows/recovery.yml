@@ -52,5 +52,5 @@ jobs:
     - name: Upload Recovery
       uses: actions/upload-artifact@v4.0.0
       with:
-        path: /home/runner/work/Patch-Recovery/Patch-Recovery/output/*.md5
+        path: /home/runner/work/explosive-diarrhea/explosive-diarrhea/output/*.md5
         name: Patched-Recovery
