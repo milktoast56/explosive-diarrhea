@@ -23,11 +23,6 @@ jobs:
       run: |
         sudo apt install git wget lz4 tar openssl python3 -y
 
-    - name: Fetch image from URL
-      run: |
-        ls
-        pwd
-        wget ${{github.event.inputs.RECOVERY_URL }} -O recovery.img
 
     - name: Patch Process-1
       run: |
